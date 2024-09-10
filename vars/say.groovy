@@ -24,7 +24,7 @@ def haha() {
 
 def something(String str) {
     try {
-        println "You've just said: ${args.str}!"
+        println "You've just said: ${str}!"
     } catch (Exception e) {
         println "Error occurred: ${e.message}"
     }
