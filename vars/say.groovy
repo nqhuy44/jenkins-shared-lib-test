@@ -1,3 +1,6 @@
+/**
+ * @deprecated Please upgrade lib to version 0.0.3 and use something(String str) method instead.
+ */
 @Deprecated
 def nothing() {
     try {
@@ -7,6 +10,9 @@ def nothing() {
     }
 }
 
+/**
+ * @deprecated Please upgrade lib to version 0.0.3 and use something(String str) method instead.
+ */
 @Deprecated
 def haha() {
     try {
