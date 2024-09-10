@@ -4,6 +4,7 @@
 @Deprecated
 def nothing() {
     try {
+        println "WARNING: The method 'haha' is deprecated. Please use 'something(String str)' method instead."
         println "I said nothing"
     } catch (Exception e) {
         println "Error occurred: ${e.message}"
@@ -16,6 +17,7 @@ def nothing() {
 @Deprecated
 def haha() {
     try {
+        println "WARNING: The method 'haha' is deprecated. Please use 'something(String str)' method instead."
         println "I laughed Haha"
     } catch (Exception e) {
         println "Error occurred: ${e.message}"
