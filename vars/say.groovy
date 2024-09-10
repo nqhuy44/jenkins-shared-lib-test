@@ -1,6 +1,6 @@
 def nothing() {
     try {
-        println "Nothing to say"
+        println "I said nothing"
     } catch (Exception e) {
         println "Error occurred: ${e.message}"
     }
@@ -8,7 +8,7 @@ def nothing() {
 
 def haha() {
     try {
-        println "Laugh Haha"
+        println "I laughed Haha"
     } catch (Exception e) {
         println "Error occurred: ${e.message}"
     }
