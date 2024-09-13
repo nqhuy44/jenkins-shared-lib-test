@@ -31,3 +31,11 @@ def something(String str) {
         println "Error occurred: ${e.message}"
     }
 }
+
+def laughed() {
+    try {
+        println "I laughed"
+    } catch (Exception e) {
+        println "Error occurred: ${e.message}"
+    }
+}
